@@ -1,33 +1,10 @@
-# 🎂 Happy Birthday Mini Website 🎉  
+# 💐 Chúc mừng 20/10 – bngocj
 
-A beautiful, interactive mini website I built to celebrate my girlfriend’s special day ❤️.  
-This project is made with **HTML, CSS, and JavaScript** and includes animations, surprises, and heartfelt wishes.  
+Trang web nhỏ chúc mừng ngày Phụ nữ Việt Nam 20/10 gửi Bảo Ngọc 💖.
+Làm bằng **HTML, CSS và JavaScript**, có hiệu ứng động và lời chúc gõ chữ.
 
-✨ Anyone can use this project to create a unique online birthday greeting for their loved one!  
-
----
-
-## 🚀 Live Demo  
-👉 [Click here to view the site](https://nikitayadav19.github.io/HappyBirthdayGF)  
+## 🚀 Xem trang
+👉 https://bbao22200.github.io/bngocjcute/
 
 ---
-
-
-## 🎁 Features   
-- 💌 Heartfelt birthday message with typewriter effect  
-- 🌟 Responsive design (works on phone & desktop)  
-- ✨ Easy to customize for anyone  
-
----
-
-## 🛠️ Tech Stack  
-- **HTML5**  
-- **CSS3** (with animations)  
-- **JavaScript**  
-
----
-
-## 🎉 How to Use  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/nikitayadav19/HappyBirthdayGF.git
+Dựa trên template [HappyBirthdayGF](https://github.com/nikitayadav19/HappyBirthdayGF) của nikitayadav19.

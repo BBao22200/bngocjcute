@@ -1,22 +1,22 @@
  // Reasons database
  const reasons = [
     { 
-        text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
+        text: "Chúc bngocj một ngày 20/10 thật xinh, thật vui và lúc nào cũng cười tươi như hoa nhé. 🌸", 
         emoji: "🌟",
         gif: "gif1.gif"
     },
     { 
-        text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
+        text: "Cảm ơn em vì đã luôn ở bên anh, dịu dàng và kiên nhẫn với anh mỗi ngày, lâu lâu hơi chướng xí. 💗", 
         emoji: "💗",
         gif: "gif2.gif"
     },
     { 
-        text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
+        text: "Chúc bngocj luôn khỏe mạnh, mọi dự định đều suôn sẻ và luôn được yêu thương thật nhiều. ✨", 
         emoji: "💕",
         gif: "gif1.gif"
     },
     { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
+        text: "Không chỉ hôm nay mà ngày nào anh cũng muốn làm bngocj vui. Yêu bngocj nhiều lắm! 🥰", 
         emoji: "🌟",
         gif: "gif2.gif"
     }
@@ -40,7 +40,7 @@ function createReasonCard(reason) {
     
     const gifOverlay = document.createElement('div');
     gifOverlay.className = 'gif-overlay';
-    gifOverlay.innerHTML = `<img src="${reason.gif}" alt="Friendship Memory">`;
+    gifOverlay.innerHTML = `<img src="${reason.gif}" alt="Kỷ niệm của tụi mình">`;
     
     card.appendChild(text);
     card.appendChild(gifOverlay);
@@ -65,7 +65,7 @@ function displayNewReason() {
         reasonsContainer.appendChild(card);
         
         // Update counter
-        reasonCounter.textContent = `Reason ${currentReasonIndex + 1} of ${reasons.length}`;
+        reasonCounter.textContent = `Lời chúc ${currentReasonIndex + 1}/${reasons.length}`;
         
         currentReasonIndex++;
 
@@ -76,7 +76,7 @@ function displayNewReason() {
                 duration: 0.5,
                 ease: "elastic.out",
                 onComplete: () => {
-                    shuffleButton.textContent = "Enter Our Storylane 💫";
+                    shuffleButton.textContent = "Xem kỷ niệm của tụi mình 💫";
                     shuffleButton.classList.add('story-mode');
                     shuffleButton.addEventListener('click', () => {
                         gsap.to('body', {
